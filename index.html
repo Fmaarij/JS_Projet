@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./public/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>Home</title>
+</head>
+
+<body onload="checkCookies()" id="bienvenu">
+  <nav class="navbar navbar-light ">
+    <form class="form-inline">
+      <a href="index.html"><button class="btn btn-outline-success" type="button"><i
+            class="fas fa-home"></i>Home</button></a>
+      <a href="public/pages/contact.html"><button class="btn btn-outline-success" type="button"><i
+            class="fas fa-address-card"></i>Contact</button></a>
+    </form>
+  </nav>
+  <div class="container1" id="changeStyle">
+    <div class="row">
+      <div class="col align-self-center">
+        <svg height="150" width="400" class="headd ">
+          <defs>
+            <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
+              <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+            </linearGradient>
+          </defs>
+          <ellipse cx="200" cy="70" rx="85" ry="55" fill="url(#grad3)" />
+          <text fill="#ffffff" font-size="45" font-family="Verdana" x="138" y="86">
+            Faisal</text>
+        </svg>
+
+
+
+
+        <button onclick="changeStyle()" id="font_size">Click to change the bg color</button>
+      </div>
+
+
+      <div class="col align-self-center">
+
+        <h1 class="mt-5" id='fontch'>Welcome to my Website</h1>
+
+        <button class="mt-5" onclick="font()">Click to change the font & it's size</button>
+      </div>
+    </div>
+  </div>
+
+
+  <hr>
+  <div class="container2">
+    <div class="row ">
+      <div class="col align-self-center">
+        <button onclick="nextPage()" id='pagechange'>Go to contact page</button>
+      </div>
+
+      <div class="col align-self-center">
+        <h1>My favorites </h1>
+        <ul id="hoverr">
+          <li>Angelina Jolie</li>
+          <li>Elon Musk</li>
+          <li>Mohamad Ali</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="container4 ">
+    <div class="row  ">
+      <div class="col   ">
+
+        <div id="containeran">
+
+          <div id="animate" class=""></div>
+        </div>
+        <button class="mt-3" onclick="myMove()">Bring the ball into the center</button>
+      </div>
+
+      <div class="col align-self-center ">
+        <h1>Show & hide the text</h1>
+        <div class="clicTitre">
+          <a id="dispa" href="javascript:affiche('contenu')">Show</a>
+        </div>
+        <div class="contenant" id="contenu">
+          <div class="clicCacher">
+            <a id="dispa" href="javascript:cache('contenu');">Hide</a></div>
+          Hi, I'm a new student, I like to learn programming.
+          I've been using HTML, CSS and JS for 3 weeks. I would like to become a web developer one day.
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <footer class="text-lg-start ">
+    <!-- Copyright -->
+    <div class="text-center p-3 position-relative" style="background-color: rgb(223, 217, 179);">
+      © 2020 Copyright:
+      <a class="text-dark text-decoration-none" href="index.html">Faisal</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+
+  <script src="public/js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>

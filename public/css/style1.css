@@ -1,0 +1,33 @@
+body{
+    
+    background-color: rgb(229, 222, 182) !important;
+    margin:0 20px 0 20px !important;
+  
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("/public/font/ROMANTICE.otf");
+         
+   }
+   h1{
+       font-family: "Open sans";
+   }
+
+   @font-face {
+    font-family: "faisal";
+    src: url("/public/font/Blantick\ Script.ttf");
+   }
+
+.imgg{
+    border-radius: 100%;
+    background-color: rgb(240, 210, 145);
+}
+
+
+
+
+
+
+
+

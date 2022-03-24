@@ -1,0 +1,95 @@
+body{
+    
+    background-color: rgb(229, 222, 182) !important;
+    margin:0 20px 0 20px !important;
+    text-align: center;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("/public/font/ROMANTICE.otf");
+         
+   }
+   h1{
+       font-family: "Open sans";
+   }
+
+   @font-face {
+    font-family: "faisal";
+    src: url("/public/font/Blantick\ Script.ttf");
+   }
+.contenant{
+    font-family:'faisal';
+}
+
+
+.headd{
+   margin:0px;
+   padding: 0px;  
+   
+  
+}
+
+
+
+.logo{
+    float: right;
+   
+}
+
+.container{
+text-align: ;
+}
+
+#t2{
+    justify-content: flex-end;
+    
+    
+}
+footer{
+    position: relative;
+    bottom : 0px;    
+      
+}
+#hoverr{
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.container4{
+   
+    height: auto;
+    width: auto;
+    
+}
+
+
+#containeran {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background: yellow;
+    border-radius: 50px;
+    margin-left: 200px;
+    
+    
+  }
+
+  #animate {
+    position: absolute;
+    background: red;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    
+  }
+
+  #dispa{
+      text-decoration: none;
+      font-weight: bold;
+      color: rgb(209, 0, 0);
+      border-radius: 40px;
+      background-color: rgb(199, 189, 142) ;
+      font-family: 'Times New Roman', Times, serif;
+  }
+  
