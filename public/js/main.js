@@ -92,6 +92,17 @@ function checkCookies() {
   }
   // document.getElementById("bienvenu").innerHTML = text;
 }
+
+
+
+
+function msgSent() {
+
+   alert("message envoyé.");
+  
+
+   }
+
   
 
 //animation
