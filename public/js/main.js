@@ -93,17 +93,7 @@ function checkCookies() {
   // document.getElementById("bienvenu").innerHTML = text;
 }
 
-
-
-
-function msgSent() {
-
-   alert("message envoyé.");
-  
-
-   }
-
-  
+ 
 
 //animation
 function myMove() {
@@ -124,26 +114,12 @@ function myMove() {
 }
 
 
+function msgSent() {
 
+  alert("message envoyé.");
+ 
 
-
-
-
-
-
-
-// function hide(){
-//     let s1 = document.getElementById("but1" ).style.display="none";
-//     let s3 = document.getElementById("but2" ).style.display="none";
-   
-// }
-// function show(){
-//     let s = document.getElementById("but1").style.display= "";
-//     let s4 = document.getElementById("but2").style.display= "";
-    
-// }
-
-
+  }
 
 
 
