@@ -117,8 +117,7 @@ function myMove() {
 function msgSent() {
 
   alert("message envoyé.");
- 
-
+  window.open('./contact.html');
   }
 
 
